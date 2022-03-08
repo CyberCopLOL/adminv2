@@ -1,0 +1,44 @@
+--Admin
+
+-- Instances:
+
+local AdoptMeGUI = Instance.new("ScreenGui")
+local GETRICKROLLEDLOLOLOL = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Sound = Instance.new("Sound")
+
+--Properties:
+
+AdoptMeGUI.Name = "Adopt Me GUI"
+AdoptMeGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+AdoptMeGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+GETRICKROLLEDLOLOLOL.Name = "GET RICKROLLED LOLOLOL"
+GETRICKROLLEDLOLOLOL.Parent = AdoptMeGUI
+GETRICKROLLEDLOLOLOL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GETRICKROLLEDLOLOLOL.Position = UDim2.new(0.216282889, 0, 0.337050796, 0)
+GETRICKROLLEDLOLOLOL.Size = UDim2.new(0, 796, 0, 516)
+
+ImageLabel.Parent = GETRICKROLLEDLOLOLOL
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 796, 0, 446)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7083449168"
+
+TextLabel.Parent = GETRICKROLLEDLOLOLOL
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0, 0, 0.86434108, 0)
+TextLabel.Size = UDim2.new(0, 796, 0, 70)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "LOL GET RICKROLLED LOLOLOL"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Sound.Parent = GETRICKROLLEDLOLOLOL
+Sound.Name = "RickrolledXD"
+Sound.Looped = true
+Sound.SoundId = "rbxassetid://6432539242"
+Sound.Playing = true
+Sound.Volume = 2
